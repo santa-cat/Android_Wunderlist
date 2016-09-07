@@ -12,7 +12,7 @@
 
 *主界面2 -- 清单完成动画、左滑删除清单<br/>
 ![](https://github.com/xuzhitaosanta/Android_Wunderlist/blob/master/pic/finish.gif)
-![](https://github.com/xuzhitaosanta/Android_Wunderlist/blob/master/pic/dragItem.gif)<br/><br/>
+![](https://github.com/xuzhitaosanta/Android_Wunderlist/blob/master/pic/deleteItem.gif)<br/><br/>
 
 *主界面3 -- 清单详细编辑、带删除功能的时间选择TextView<br/>
 ![](https://github.com/xuzhitaosanta/Android_Wunderlist/blob/master/pic/edit.gif)
