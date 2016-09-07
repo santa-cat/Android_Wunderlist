@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="80"
+        android:title="编辑"
+        app:showAsAction="ifRoom"
+        android:textSize="20sp"/>
+
+    <!--<item-->
+        <!--android:id="@+id/action_talk"-->
+        <!--android:orderInCategory="80"-->
+        <!--android:title="action_search"-->
+        <!--app:actionViewClass="android.support.v7.widget.SearchView"-->
+        <!--app:showAsAction="ifRoom"/>-->
+
+    <!--<item-->
+        <!--android:id="@+id/action_bell"-->
+        <!--android:orderInCategory="80"-->
+        <!--android:title="action_search"-->
+        <!--app:actionViewClass="android.support.v7.widget.SearchView"-->
+        <!--app:showAsAction="ifRoom"/>-->
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="设置"-->
+        <!--app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/action_bookmark"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="书签"-->
+        <!--app:showAsAction="never"/>-->
+
+    <!--<item-->
+        <!--android:id="@+id/action_unfollow"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="取消关注"-->
+        <!--app:showAsAction="never"/>-->
+
+</menu>

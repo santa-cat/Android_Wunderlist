@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PopuImageView">
+        <attr name="piv_drawableChecked" format="reference"/>
+        <attr name="piv_drawableUnChecked" format="reference"/>
+        <attr name="piv_TimeViewType" format="string"/>
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff678764</color>
+    <color name="colorPrimaryDark">#ff678764</color>
+    <color name="colorAccent">#ffcbcbcb</color>
+    <color name="floatingButtonColor">#ff378ad3</color>
+    <color name="mainGreen">#ff678764</color>
+    <color name="letterColor">#ffe36767</color>
+    <color name="remindNumColor">#c5645f</color>
+    <color name="remindBackColor">#ffeae2d8</color>
+    <color name="addListColor">#ff358ed6</color>
+    <color name="white">#ffededed</color>
+    <color name="black">#ff333333</color>
+    <color name="midGrary">#ff666666</color>
+    <color name="lightGrary">#ffdfdfdf</color>
+    <color name="transparent">#ee222222</color>
+
+    <!--<color name="windActivity">#ee222222</color>-->
+
+</resources>

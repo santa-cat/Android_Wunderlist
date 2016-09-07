@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PopuTextView">
+        <attr name="ptv_textSize" format="dimension"/>
+        <attr name="ptv_text" format="string"/>
+        <attr name="ptv_textCheckedColor" format="color"/>
+        <attr name="ptv_textUnCheckedColor" format="color"/>
+        <attr name="ptv_TimeViewType" format="string"/>
+    </declare-styleable>
+</resources>

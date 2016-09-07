@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.santa.wunderlist.EditTipActivity">
+
+    <LinearLayout
+        android:id="@+id/edit_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/edit_reback"
+            android:layout_marginStart="16dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/reback"/>
+        <EditText
+            android:id="@+id/edit_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:cursorVisible="false"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:text="hhhhshshhshs我呵呵哈哈哈哈hshshshshshhshshshshshshshshs"
+            android:textSize="@dimen/textsize_title"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <com.example.santa.wunderlist.StarViewImage
+            android:layout_marginStart="8dp"
+            android:id="@+id/edit_star"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <include layout="@layout/content_tipedit" />
+
+
+    <LinearLayout
+        android:id="@+id/edit_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:layout_marginStart="16dp"
+            android:id="@+id/edit_"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/comment" />
+        <EditText
+            android:id="@+id/edit_comment"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:hint="添加评论..."
+            android:cursorVisible="false"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:textSize="@dimen/textsize_normal"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <TextView
+            android:id="@+id/edit_more"
+            android:layout_marginStart="8dp"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:text="..."
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/midGrary"
+            android:textSize="@dimen/textsize_normal" />
+    </LinearLayout>
+</RelativeLayout>

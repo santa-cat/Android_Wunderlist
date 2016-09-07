@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.santa.wunderlist.TipListActivity"
+    tools:showIn="@layout/activity_tiplist"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainGreen"
+        android:alpha="200"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:layout_marginStart="8dp"
+            android:id="@+id/edit_plus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"/>
+        <EditText
+            android:id="@+id/tip_edit"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="添加任务..."
+            android:textColorHint="@color/white"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:cursorVisible="false"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <com.example.santa.wunderlist.StarEditImage
+            android:layout_marginStart="8dp"
+            android:id="@+id/edit_star"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/tip_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

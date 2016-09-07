@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<TextView-->
+        <!--android:padding="8dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="收件箱"-->
+        <!--android:textColor="@color/midGrary"-->
+        <!--android:textSize="@dimen/textsize_normal"-->
+        <!--android:background="@android:color/white" />-->
+    <ListView
+        android:id="@+id/group_select"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/midGrary"
+        android:background="@android:color/white"/>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/addtip_edit"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="你希望做什么呢？"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="30sp"
+        android:layout_weight="1"
+        android:focusable="true"
+        android:textColor="@color/colorAccent"
+        android:background="@android:color/white"
+        android:textCursorDrawable="@drawable/cursor"
+        android:gravity="top"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGrary"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/white" >
+        <ImageView
+            android:layout_marginStart="16dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/group"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/addtip_group"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="收件箱"
+            android:textColor="@color/midGrary"
+            android:textSize="@dimen/textsize_normal"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightGrary"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+        <com.example.santa.wunderlist.PopuImageView
+            android:id="@+id/addtip_date"
+            android:layout_marginStart="16dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            app:piv_drawableChecked ="@mipmap/deadday_ed"
+            app:piv_drawableUnChecked ="@mipmap/deadday"/>
+        <!--<ImageView-->
+            <!--android:id="@+id/addtip_date"-->
+            <!--android:layout_marginStart="16dp"-->
+            <!--android:layout_width="20dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:src="@mipmap/deadday"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentStart="true"/>-->
+        <com.example.santa.wunderlist.PopuImageView
+            android:id="@+id/addtip_clock"
+            android:layout_marginStart="32dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/addtip_date"
+            app:piv_drawableChecked ="@mipmap/clock_ed"
+            app:piv_drawableUnChecked ="@mipmap/clock"
+            app:piv_TimeViewType="m-d-h-min"/>
+        <TextView
+            android:padding="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="完成"
+            android:textColor="@color/midGrary"
+            android:textSize="@dimen/textsize_normal"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    
+</LinearLayout>
