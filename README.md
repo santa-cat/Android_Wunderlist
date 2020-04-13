@@ -1,4 +1,4 @@
-# Android_Wunderlist
+# Android_Wunderlist - 刚接触Android写的demo
 模仿奇妙清单，实现主体部分UI，其中主要模块包括时间选择器、侧滑删除布局、可拖拽任务清单、收藏等。<br/><br/>
 
 ###*主界面1 -- 添加清单、时间选择器<br/>
